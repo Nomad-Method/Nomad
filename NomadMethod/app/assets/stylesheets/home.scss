@@ -1,0 +1,31 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.hero {
+	background: url(mpls.jpg) no-repeat center center;
+	background-size:cover;
+	height:100vh;
+}
+
+.hero:before {
+	content:'';
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.hero .intro {
+	padding: 3rem;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hero h1 {
+	color: #fff;
+	text-align:center;
+	font-size:1.5rem;
+	line-height:1.5rem;
+}
