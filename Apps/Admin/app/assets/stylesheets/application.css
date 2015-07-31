@@ -1,0 +1,119 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+a {
+	text-decoration:none;
+}
+
+.floatleft {
+	float:left;
+}
+
+.floatright {
+	float:right;
+}
+
+.clear:after {
+	clear: both;
+	content: '';
+	display:block;
+}
+
+ol, ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+ 	width:100%;
+	background-color:#444;
+	height:35px;
+}
+
+.signIn {
+	float:right;
+	top: 50%;
+	transform: translate(0%, 50%);
+}
+
+.signIn li {
+	color:#fff;
+	padding:0 15px;
+	float:left;
+}
+
+.sideNavigation {
+	height:100%;
+	width: 175px;
+	background: #1e5799; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxZTU3OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMjIyMjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvcmFkaWFsR3JhZGllbnQ+CiAgPHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-radial-gradient(center, ellipse cover,  #1e5799 0%, #444444 0%, #222222 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#1e5799), color-stop(0%,#444444), color-stop(100%,#222222)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #1e5799 0%,#444444 0%,#222222 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #1e5799 0%,#444444 0%,#222222 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #1e5799 0%,#444444 0%,#222222 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #1e5799 0%,#444444 0%,#222222 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#222222',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+.menuItem {
+	box-sizing:border-box;
+	float:left;
+	width:100%;
+	height: 75px;
+	padding-left:20px;
+}
+
+.menuItem:hover {
+	opacity:.7;
+}
+
+.menuLink {
+	color:#eee;
+	font-weight:bold;
+}
+
+
+.blue {
+	background-color:darkblue;
+}
+
+.orange {
+	background-color:orange;
+}
+
+.green {
+	background-color:green;
+}
+
+.purple {
+	background-color:purple;
+}
+
+.red {
+	background-color:red;
+}
